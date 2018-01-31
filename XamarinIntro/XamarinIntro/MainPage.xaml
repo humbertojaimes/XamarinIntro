@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XamarinIntro"
              x:Class="XamarinIntro.MainPage">
-
+              
     <StackLayout>
-        <ListView x:Name="lvClients" HasUnevenRows="true"   ItemTapped="Handle_ItemTapped">
+        <ListView x:Name="lvClients" HasUnevenRows="true" ItemTapped="Handle_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
